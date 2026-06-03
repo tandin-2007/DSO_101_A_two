@@ -1,20 +1,22 @@
 {
   "name": "todo-app",
   "version": "1.0.0",
-  "description": "CI/CD Assignment",
+  "description": "CI/CD Assignment 3",
   "main": "src/index.js",
+
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "test": "jest --ci --reporters=default --reporters=jest-junit",
+    "test": "jest",
     "build": "echo Build Successful"
   },
+
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.1.0"
   },
+
   "devDependencies": {
     "jest": "^30.0.0",
-    "jest-junit": "^16.0.0",
     "nodemon": "^3.1.10"
   }
 }
