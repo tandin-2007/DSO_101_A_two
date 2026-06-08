@@ -92,14 +92,7 @@ stages {
 
 Jest was used for unit testing. The package.json file was updated to include the test script. The pipeline runs the tests automatically during the Test stage.
 
-## Screenshots
 
-Screenshots included in this assignment:
-
-* Jenkins successful pipeline execution
-* Jenkins test result
-* Docker Hub image
-* GitHub repository with Jenkinsfile
 
 ## Challenges Faced
 
